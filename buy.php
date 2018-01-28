@@ -44,6 +44,7 @@
         <div id="buy">
             <?php
                 echo "You successfully insert following product:<br>";
+                echo " Name : $_POST["name"] <br>";
             ?>
         </div>
 
