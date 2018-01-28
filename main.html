@@ -3,6 +3,13 @@
         <link rel="stylesheet" href="jquery-ui.min.css">
         <script src="external/jquery/jquery.js"></script>
         <script src="jquery-ui.min.js"></script>
+        <script>
+            $(function() {
+                $( "#tabs" ).tabs({
+                    active: 0
+                });
+            });
+      </script>
     </head>
 
     <div id="accordion" class="ui-accordion ui-widget ui-helper-reset">
@@ -15,11 +22,21 @@
         <div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom">Second content panel</div>
     </div>
 
-    <div id="tabs" class="ui-tabs">
-        <ul class="ui-tabs-nav">
-            <li class="ui-tabs-tab ui-tab-active"><a href="#fragment-1">One</a></li>
-            <li class="ui-tabs-panel"><a href="#fragment-2">Two</a></li>
-            <li class="ui-tabs-tab"><a href="#fragment-3">Three</a></li>
+    <div id="tabs">
+        <ul>
+            <li><a href="#fragment-1">One</a></li>
+            <li><a href="#fragment-2">Two</a></li>
+            <li><a href="#fragment-3">Three</a></li>
         </ul>
+
+        <div id="fragment-1">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        </div>
+        <div id="fragment-2">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        </div>
+        <div id="fragment-3">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        </div>
     </div>
 </html>
