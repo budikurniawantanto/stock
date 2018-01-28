@@ -42,12 +42,7 @@
         </div>
 
         <div id="buy">
-            <?php
-            echo "You successfully insert following product:<br>";
-            echo " Name     : $_POST['name'] <br>";
-            echo " Quantity : $_POST['quantity'] <br>";
-            echo " Price    : $_POST['price'] <br><br>";
-            ?>
+            <p>Lalalaa</p>
         </div>
 
         <div id="sell">
