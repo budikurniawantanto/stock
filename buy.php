@@ -42,7 +42,9 @@
         </div>
 
         <div id="buy">
-            <p>Lalalaa</p>
+            <?php
+                echo "You successfully insert following product:<br>";
+            ?>
         </div>
 
         <div id="sell">
