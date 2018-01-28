@@ -21,7 +21,7 @@
         <script>
             $(function() {
                 $( "#tabs" ).tabs({
-                    active: 0
+                    active: 1
                 });
             });
         </script>
@@ -42,19 +42,17 @@
         </div>
 
         <div id="buy">
-    <pre>
-    <form method="post" action="buy.php">
-        Name     : <input type="text" name="name"><br>
-        Quantity : <input type="text" name="quantity"><br>
-        Price    : <input type="text" name="price"><br>
-        <input type="submit" value="Submit">
-    </form>
-    </pre>
+            <?php
+            echo "You successfully insert following product:<br>";
+            echo " Name     : $_POST['name'] <br>";
+            echo " Quantity : $_POST['quantity'] <br>";
+            echo " Price    : $_POST['price'] <br><br>";
+            ?>
         </div>
 
         <div id="sell">
     <pre>
-    <form action="sell.php" method="post">
+    <form action="/sell.php">
         Name     : <input type="text" name="name"><br>
         Quantity : <input type="text" name="quantity"><br>
         Price    : <input type="text" name="price"><br>
