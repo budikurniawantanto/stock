@@ -43,7 +43,7 @@
 
                     <div class="collapse navbar-collapse" id="homeNavBar">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="/login.php/">Login</a></li>
+                            <li><a href="login.html">Login</a></li>
                         </ul>
                     </div>
                 </div>
@@ -69,7 +69,7 @@
         </div>
 
         <footer class="container-fluid text-center">
-            <a href="/home.php/"> Back To Home</a>
+            <a href="home.php"> Back To Home</a>
         </footer>
     </body>
 </html>

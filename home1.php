@@ -48,12 +48,12 @@
                     <div class="collapse navbar-collapse" id="homeNavBar">
                         <ul class="nav navbar-nav">
                             <li class="active"><a href="/home1.php/">Home</a></li>
-                            <li><a href="/instock.php/">Stock-In</a></li>
-                            <li><a href="/outstock.php/">Stock-Out</a></li>
+                            <li><a href="instock.php">Stock-In</a></li>
+                            <li><a href="outstock.php">Stock-Out</a></li>
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="#">Hello, <?php echo $_SESSION["username"]; ?></a></li>
-                            <li><a href="/logout.php/"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+                            <li><a href="logout.php"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
                         </ul>
                     </div>
                 </div>
@@ -76,7 +76,7 @@
         </div>
 
         <footer class="container-fluid text-center">
-            <a href="/home1.php/"> Back To Home</a>
+            <a href="home1.php"> Back To Home</a>
         </footer>
     </body>
 </html>

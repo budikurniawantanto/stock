@@ -46,11 +46,11 @@
                     </div>
                     <div class="collapse navbar-collapse" id="homeNavBar">
                         <ul class="nav navbar-nav">
-                            <li><a href="/home.php/">Home</a></li>
-                            <li><a href="/register.html/">Register</a></li>
+                            <li><a href="home.php">Home</a></li>
+                            <li><a href="register.html">Register</a></li>
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
-                            <li class="active"><a href="/login.html/"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                            <li class="active"><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
                         </ul>
                     </div>
                 </div>
@@ -91,7 +91,7 @@
         </div>
 
         <footer class="container-fluid text-center">
-            <a href="/home.php/"> Back To Home</a>
+            <a href="home.php"> Back To Home</a>
         </footer>
     </body>
 </html>
