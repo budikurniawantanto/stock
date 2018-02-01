@@ -48,7 +48,7 @@
                     <div class="collapse navbar-collapse" id="homeNavBar">
                         <ul class="nav navbar-nav">
                             <li class="active"><a href="/home.php/">Home</a></li>
-                            <li><a href="/register.html/">Register</a></li>
+                            <li><a href="/register.php/">Register</a></li>
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="/login.html/"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
